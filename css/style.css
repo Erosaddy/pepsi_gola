@@ -1,16 +1,86 @@
 @charset "utf-8";
 
+/*=========================== 0. 스타일 공통속성 ===========================*/
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mx-10 {
+    margin: 10px;
+}
+
+.mx-10a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/*=========================== 1. 스타일 초기화 ===========================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     width: 100px;
     height: 110px;
     display: block;
 }
 
-.mx-auto {
-    margin: 0 auto;
+.nav {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
 }
 
-.my-50 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.bg_nav {
+    background-color: #005891;
+}
+
+/* Love~Hate 순서를 따라야 제대로 적용된다 */
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #fcff00;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+.cf {
+    width: 800px;
+    height: 500px;
+    display: block;
 }
