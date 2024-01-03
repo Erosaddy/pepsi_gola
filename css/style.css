@@ -6,6 +6,11 @@
     margin: 0 auto;
 }
 
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .my-30 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -17,7 +22,7 @@
 }
 
 .text-center {
-    text-align: center;
+    text-align: center; /*텍스트 가로 가운데로 정렬*/
 }
 
 .mx-10 {
@@ -33,6 +38,13 @@
     font-weight: bold;
 }
 
+.text-upper {
+    text-transform: uppercase;
+}
+
+.font-22 {
+    font-size: 22px;
+}
 
 /*=========================== 1. 스타일 초기화 ===========================*/
 
@@ -84,3 +96,18 @@ a:active {
     height: 500px;
     display: block;
 }
+
+.movie-title {
+    font-size: 22px;
+}
+
+.movie-text {
+    color: #555555
+}
+
+.movie-poster {
+    width: 600px;
+    height: 300px;
+    font-size: 0;
+}
+
