@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 
     /* 이놈이 미디어 쿼리다 */
     .cf {
