@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 /*=========================== 0. 스타일 공통속성 ===========================*/
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .mx-auto {
     margin: 0 auto;
@@ -25,6 +29,11 @@
     text-align: center; /*텍스트 가로 가운데로 정렬*/
 }
 
+.mx-3 {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
 .mx-10 {
     margin: 10px;
 }
@@ -42,8 +51,16 @@
     text-transform: uppercase;
 }
 
+.font-15 {
+    font-size: 15px;
+}
+
 .font-22 {
     font-size: 22px;
+}
+
+.font-30 {
+    font-size: 30px;
 }
 
 /*=========================== 1. 스타일 초기화 ===========================*/
@@ -111,3 +128,48 @@ a:active {
     font-size: 0;
 }
 
+.sns {
+    font-size: 0;
+}
+
+.bg_sns {
+    background-color: #f3f3f3;
+}
+
+/* ===================footer====================== */
+
+/* .divider {
+    border-top-color: red;
+} */
+
+.divider {
+    border: 0px;
+    height: 1px;
+    background-color: #005891;
+}
+
+.cs-title {
+    font-size: 15px;
+    color: #005891;
+}
+
+.cs-number {
+    font-size: 30px;
+}
+
+.cs-number a { /* 하위 선택자, 후손 선택자 */
+    color:#005891;
+}
+
+.ko-address {
+    font-size: 13px;
+    margin-top: 70px;
+}
+
+.en-ownership {
+    font-size: 11px;
+}
+
+.brand {
+    font-style: italic;
+}
