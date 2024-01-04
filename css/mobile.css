@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@media screen and (max-width: 400px) {
+    .cf {
+        width: 100vw;
+        height: auto;
+    }
+    .cf img {
+        width: 100%; /* 화면에 맞추는 게 아니라 어머니에게 맞추는 것 */
+    }
+}
