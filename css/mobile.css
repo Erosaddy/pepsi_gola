@@ -1,23 +1,30 @@
 @charset "utf-8";
 
-@media screen and (max-width: 400px) { /* 이놈이 미디어 쿼리다 */
+@media screen and (max-width: 400px) {
+
+    /* 이놈이 미디어 쿼리다 */
     .cf {
         width: 100vw;
         height: auto;
     }
+
     .cf img {
-        width: 100%; /* 화면에 맞추는 게 아니라 어머니에게 맞추는 것 */
+        width: 100%;
+        /* 화면에 맞추는 게 아니라 어머니에게 맞추는 것 */
     }
+
     .movie-poster {
         width: 100vw;
         height: auto;
     }
+
     /* .movie-poster img {
         width: 100%;
     } */
- .movie-poster img {
+    .movie-poster img {
         width: 200px;
     }
+
     #footer {
         margin-bottom: 50px;
     }
